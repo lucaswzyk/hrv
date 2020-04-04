@@ -8,22 +8,30 @@ import numpy as np
 
 # Direct input values
 # min_beat, max_beat      first/last beat to consider
-# min_beat_resolution     min resolution for beat axis, actual value may be greater due to rounding or smaller
-#                         due to insufficient sample size (max_beat - min_beat)
+# min_beat_resolution     min resolution for beat axis,
+#                         actual value may be greater due to rounding or
+#                         smaller due to insufficient sample size
+#                         (max_beat - min_beat)
 # min_scale, max_scale    smallest/largest applied wavelet scale
-# min_scale_resolution    min resolution for scale axis (actual value may be greater due to rounding)
-# exp_scales              boolean whether to use exponentially growing scales instead of linearly growing scales
-# q_range                 boundary for relevant values of q (DFA), lower bound is -q_range
+# min_scale_resolution    min resolution for scale axis,
+#                         actual value may be greater due to rounding
+# exp_scales              boolean whether to use exponentially growing scales
+#                         instead of linearly growing scales
+# q_range                 boundary for relevant values of q (DFA)
+#                         lower bound is -q_range
 # min_q_resolution        min resolution of q values (DFA)
-# wavelet_bound           boundary for relevant wavelet support, lower bound is -wavelet_bound
+# wavelet_bound           boundary for relevant wavelet support
+#                         lower bound is -wavelet_bound
 # deg_pol                 degree of polynomial fit (DFA)
 # file                    .txt file with RR interval data
-# int_scales              boolean whether to round scales to integers (relevant for WTMM)
+# int_scales              boolean whether to round scales to integers
+#                         relevant for WTMM
 
 # Generated values
 # beat_step               distance between considered beats
 # beats                   range determined by beat parameters
-# scale_step              distance between considered scales (can be evaluated exponentially)
+# scale_step              distance between considered scales
+#                         can be evaluated exponentially
 # scales                  list of considered scales
 # q_step                  distance between considered qs (DFA)
 # qs                      list of considered qs (will not contain 0)

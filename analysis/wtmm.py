@@ -23,7 +23,7 @@ SETTINGS = settings.AnalysisSettings(
     exp_scales=True,
     q_range=5,
     min_q_resolution=40,
-    file='../material/healthy_adult_25k.txt'
+    file="../material/healthy_adult_25k.txt"
 )
 
 # will be set later on (could probably be done more nicely)

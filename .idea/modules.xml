@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/PulseModel.iml" filepath="$PROJECT_DIR$/.idea/PulseModel.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../hrv/.idea/hrv.iml" filepath="$PROJECT_DIR$/../hrv/.idea/hrv.iml" />
     </modules>
   </component>
 </project>
