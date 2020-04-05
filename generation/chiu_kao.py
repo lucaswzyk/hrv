@@ -32,6 +32,7 @@ nm = 1
 ns = 1
 nv = 1
 
+# set starting values here in format [A_1, A_2, AB, B, N, c_2]
 starting_val = [.12, 1, 1, .88, 1, 0]#[.36, 4.1, 4.1, .64, .89, .16]
 t_end = 280
 t_res = 10*t_end
